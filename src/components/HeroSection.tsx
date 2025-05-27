@@ -34,7 +34,7 @@ const HeroSection = () => {
             <div className="flex flex-wrap justify-center gap-2 md:gap-4">
               <span className="text-neon-blue font-semibold">CTO</span>
               <span className="text-gray-500">•</span>
-              <span className="text-neon-blue font-semibold">Head of Technology</span>
+              <span className="text-neon-blue font-semibold">Stealth Startup</span>
               <span className="text-gray-500">•</span>
               <span className="text-neon-blue font-semibold">Founding Engineer</span>
               <span className="text-gray-500">•</span>
@@ -42,7 +42,7 @@ const HeroSection = () => {
             </div>
           </div>
           <p className="text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
-            "Building secure, intelligent, and scalable AI systems"
+            "Building secure, intelligent and scalable AI systems"
           </p>
         </div>
 
@@ -58,12 +58,6 @@ const HeroSection = () => {
             <a href="https://www.linkedin.com/in/chirag-chawla-888025254/" target="_blank" rel="noopener noreferrer">
               <Linkedin className="mr-2 h-4 w-4" />
               LinkedIn
-            </a>
-          </Button>
-          <Button variant="outline" className="border-neon-blue text-neon-blue hover:bg-neon-blue hover:text-black transition-all duration-300" asChild>
-            <a href="https://surenoobster.github.io" target="_blank" rel="noopener noreferrer">
-              <ExternalLink className="mr-2 h-4 w-4" />
-              Portfolio
             </a>
           </Button>
           <Button variant="outline" className="border-neon-blue text-neon-blue hover:bg-neon-blue hover:text-black transition-all duration-300" asChild>

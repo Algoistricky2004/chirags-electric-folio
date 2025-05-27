@@ -1,4 +1,3 @@
-
 const skillCategories = [
   {
     title: "Languages",
@@ -27,7 +26,11 @@ const SkillsSection = () => {
             Technical <span className="text-neon-blue">Expertise</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Comprehensive skillset spanning AI research, software engineering, and system architecture
+            I'm particularly passionate about AI research, collaboration on impactful ideas, and contributing to open-source or cutting-edge tech. <br />
+            Feel free to reach out for freelance opportunities or collaborations:{" "}
+            <a href="mailto:chiragchawla2021@gmail.ocvm" className="text-neon-blue underline">
+              chiragchawla2021@gmail.com
+            </a>
           </p>
         </div>
 
@@ -38,12 +41,12 @@ const SkillsSection = () => {
               className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-gray-900 to-black border border-gray-800 hover:border-neon-blue/50 transition-all duration-500"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-neon-blue/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              
+
               <div className="relative p-6">
                 <h3 className="text-xl font-bold text-neon-blue mb-6 text-center">
                   {category.title}
                 </h3>
-                
+
                 <div className="space-y-3">
                   {category.skills.map((skill, skillIndex) => (
                     <div

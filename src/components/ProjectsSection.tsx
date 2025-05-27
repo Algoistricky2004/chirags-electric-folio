@@ -18,13 +18,6 @@ const projects = [
     demo: "#"
   },
   {
-    title: "Custom Generative LLM",
-    description: "Built a custom large language model leveraging Gemini API for specialized text generation tasks.",
-    tech: ["Gemini API", "LLM", "Python", "API Integration"],
-    github: "#",
-    demo: "#"
-  },
-  {
     title: "Image Captioning System",
     description: "Deep learning model combining VGG16 feature extraction with SimpleRNN for automatic image description generation.",
     tech: ["VGG16", "SimpleRNN", "Computer Vision", "TensorFlow"],
