@@ -1,21 +1,47 @@
 const skillCategories = [
   {
     title: "Languages",
-    skills: ["Python", "C++", "JavaScript", "SQL"]
+    skills: [
+      "Python", "C++", "JavaScript", "SQL", "Go", "Java", "TypeScript", "Rust", "Bash", "R"
+    ]
   },
   {
-    title: "Frameworks",
-    skills: ["PyTorch", "TensorFlow", "Keras", "Flask", "Django", "Langchain"]
+    title: "Frameworks & Libraries",
+    skills: [
+      "PyTorch", "TensorFlow", "Keras", "Flask", "Django", "Langchain", 
+      "FastAPI", "React", "Vue.js", "Next.js", "Express.js", "Scikit-learn", "XGBoost", "LightGBM"
+    ]
   },
   {
-    title: "Tools",
-    skills: ["Docker", "Airflow", "AWS", "GCP", "Huggingface", "Tableau"]
+    title: "Tools & Platforms",
+    skills: [
+      "Docker", "Airflow", "AWS", "GCP", "Azure", "Huggingface", "Tableau", 
+      "Kubernetes", "Kafka", "Git", "MLflow", "Prometheus", "Grafana", "Jenkins", "Terraform"
+    ]
   },
   {
     title: "Specializations",
-    skills: ["MLOps", "Knowledge Graphs", "NLP Security", "Computer Vision", "ROS"]
+    skills: [
+      "MLOps",
+      "Knowledge Graphs",
+      "NLP Security",
+      "Computer Vision",
+      "ROS",
+      "Graph Neural Networks (GNN)",
+      "Agentic Workflows",
+      "Reinforcement Learning",
+      "Explainable AI",
+      "Federated Learning",
+      "Time Series Analysis",
+      "Anomaly Detection",
+      "Speech Recognition",
+      "Generative Models (GANs, VAEs)",
+      "Transfer Learning",
+      "AutoML"
+    ]
   }
 ];
+
 
 const SkillsSection = () => {
   return (

@@ -27,7 +27,7 @@ const HeroSection = () => {
 
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <div className="mb-8 animate-slide-in">
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
+          <h1 className="text-5xl md:text-7xl font-bold text-white mb-8">
             Chirag <span className="text-neon-blue animate-glow">Chawla</span>
           </h1>
           <div className="text-lg md:text-xl text-gray-300 mb-4 space-y-2">
